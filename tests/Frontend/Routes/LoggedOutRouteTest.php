@@ -1,7 +1,7 @@
 <?php
 
+use App\Models\Auth\User;
 use Tests\BrowserKitTestCase;
-use App\Models\Access\User\User;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Event;
 use App\Events\Frontend\Auth\UserConfirmed;

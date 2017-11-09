@@ -2,8 +2,8 @@
 
 namespace Tests;
 
-use App\Models\Access\Role\Role;
-use App\Models\Access\User\User;
+use App\Models\Auth\Role;
+use App\Models\Auth\User;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Artisan;
