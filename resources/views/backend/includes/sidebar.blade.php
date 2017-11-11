@@ -74,7 +74,7 @@
             </li>
             @endauth
 
-            <li class="{{ active_class(Active::checkUriPattern('admin/log-viewer*')) }} treeview">
+            <!-- <li class="{{ active_class(Active::checkUriPattern('admin/log-viewer*')) }} treeview">
                 <a href="#">
                     <i class="fa fa-list"></i>
                     <span>{{ trans('menus.backend.log-viewer.main') }}</span>
@@ -95,7 +95,7 @@
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> -->
         </ul><!-- /.sidebar-menu -->
     </section><!-- /.sidebar -->
 </aside>
